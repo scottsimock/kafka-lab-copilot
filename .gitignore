@@ -1,0 +1,144 @@
+# =============================================================================
+# Terraform
+# =============================================================================
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+*.tfplan.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# =============================================================================
+# TypeScript / Node.js
+# =============================================================================
+node_modules/
+dist/
+build/
+out/
+.next/
+*.js.map
+*.d.ts.map
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/cache
+.pnp.*
+.env
+.env.*
+!.env.example
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.log
+
+# =============================================================================
+# Shell Scripts
+# =============================================================================
+*.sh.bak
+*.sh.tmp
+
+# =============================================================================
+# Agentic AI / LLM Tooling
+# =============================================================================
+.agent/
+.agents/
+agent_workspace/
+.copilot/
+.cursor/
+chroma_db/
+vector_store/
+embeddings/
+*.gguf
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.h5
+*.npy
+*.npz
+sessions/
+memory/
+.cache/
+.langchain/
+.openai/
+
+# =============================================================================
+# Secrets & Credentials
+# =============================================================================
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets.json
+secrets.yaml
+secrets.yml
+*secrets*
+*credentials*
+.aws/
+.azure/
+
+# =============================================================================
+# Markdown / Docs Build Output
+# =============================================================================
+_site/
+.docusaurus/
+.vitepress/cache
+.vitepress/dist
+docs/_build/
+site/
+
+# =============================================================================
+# OS & Editor
+# =============================================================================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.idea/
+*.swp
+*.swo
+*~

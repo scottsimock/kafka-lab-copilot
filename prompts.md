@@ -24,3 +24,9 @@ TO create the agents lookup best practies for skills from anthropic.
 ```
 We're going to start a project today that will host an application that generates messages to multiple confuent kafka clusters in multiple azure regions and availaibility zones. The first thing I want you to do as the technical lead is to create an epic that has several subtasks all created under epic 1. The purpose of the epic is to research best practices on how to build multi-region and multi-availability zone confluent kakfa clusters in azure running on virtual machines. Use the developer subagents to go to the internet, ao all that research, come back, build out comprehensive documentation as to the approach to deploy and run confluent kafka in azure. For now all I want you to do as tech lead is to build that epic and subtasks as a plan for this research and design epic. Do not do anything else. Once complete, pause.
 ```
+
+`/fleet You are the tech lead. Please use the orchestrator skill to invoke the developer subagents to complete epic 2 and all the tasks for epic 2. Accomplish all subtasks with your team autonomously`
+
+```
+You are working very effectively through the tasks in the backlog, but, the agents are not committing their work to git. Please create a new skill about adhereing to good git hygiene making sure that after each task is completed successfully there is a related git commit. Pleaes update the copilot-instructions for this general project direction, update the orchestrator skill to follow this practice and update the developer agent to follow this practice.
+```

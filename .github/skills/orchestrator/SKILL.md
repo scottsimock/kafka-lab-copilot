@@ -19,7 +19,7 @@ Skip requirement gathering. Propose one task, confirm with the user, then delega
 2. **Decompose** – Draft epics and tasks. **Present the structure to the user and get explicit approval before creating any backlog items.**
 3. **Create** – Add approved items via Backlog MCP with full descriptions and acceptance criteria.
 4. **Delegate** – Kick off all tasks within the current epic whose dependencies are met **in parallel**.
-5. **Validate** – When a task is Done, review it against its acceptance criteria. Pass it or reject with specific feedback for rework.
+5. **Validate** – When a task is Done, review it against its acceptance criteria. Verify git commit was made (see Git Hygiene skill). Pass it or reject with specific feedback for rework.
 6. **Advance** – Once all tasks in an epic pass, proactively summarize progress to the user, then begin the next epic. **Epics run sequentially.**
 7. Repeat until done.
 
@@ -28,6 +28,7 @@ Skip requirement gathering. Propose one task, confirm with the user, then delega
 - **Blockers**: If the developer hits ambiguity or a blocker, pause and re-clarify with the user before proceeding.
 - **Scope gaps**: If you discover missing tasks or epics during execution, create them autonomously — no permission needed.
 - **Status updates**: Proactively summarize at epic boundaries and whenever context warrants it.
+- **Git commits**: After each task completion, verify that a related git commit was made with the task ID in the message (see Git Hygiene skill). If missing, ask the developer to commit before marking Done.
 
 ## Task Quality Bar
 

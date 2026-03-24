@@ -25,8 +25,8 @@ This repository uses a **two-agent system** for all development work. Both agent
 1. User discusses intent and requirements with the **Orchestrator**.
 2. Orchestrator creates structured tasks in the backlog via MCP (using `task-{epic}.{task}` IDs).
 3. Orchestrator delegates tasks to the **Developer** subagent.
-4. Developer reads the task from the backlog, implements code + tests, and updates task status.
-5. Orchestrator reviews progress and coordinates next steps with the user.
+4. Developer reads the task from the backlog, implements code + tests, **commits changes with git**, and updates task status.
+5. Orchestrator verifies git commit was made, reviews progress, and coordinates next steps with the user.
 
 ### Key Rule
 
@@ -48,6 +48,7 @@ The main repository structure is the Backlog.md workspace under `backlog\`, whic
 
 ## Key Conventions
 
+- **Git hygiene**: After each completed backlog task, a corresponding git commit must be created with the task ID in the message and co-author trailer. Orchestrator verifies commits are made. See Git Hygiene skill for details.
 - Use the Backlog MCP for all task and project management activities.
 - If your client supports MCP resources, read `backlog://workflow/overview` before creating or changing tasks.
 - If your client does not support MCP resources, use the equivalent Backlog workflow overview tool to load the task-management guidance first.

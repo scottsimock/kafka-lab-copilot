@@ -11,7 +11,8 @@ labels:
   - kafka
   - architecture
   - multi-region
-dependencies: []
+dependencies:
+  - TASK-2.1
 parent_task_id: TASK-2
 priority: high
 ---

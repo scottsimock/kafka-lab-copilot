@@ -1,3 +1,10 @@
+---
+id: research-2.5
+title: Azure Networking Architecture
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Azure Networking Architecture for Multi-Region Confluent Kafka
 
 **Research Document** | **TASK-2.5**  

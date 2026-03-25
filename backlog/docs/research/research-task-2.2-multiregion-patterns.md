@@ -1,3 +1,10 @@
+---
+id: research-2.2
+title: Multi-Region Kafka Architecture Patterns
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Multi-Region Kafka Architecture Patterns Research
 
 ## Executive Summary

@@ -1,3 +1,10 @@
+---
+id: research-2.7
+title: Kafka Security on Azure
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Confluent Kafka Security on Azure: Research and Best Practices
 
 ## Executive Summary

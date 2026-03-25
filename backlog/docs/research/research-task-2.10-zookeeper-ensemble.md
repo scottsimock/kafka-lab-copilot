@@ -1,3 +1,10 @@
+---
+id: research-2.10
+title: ZooKeeper Ensemble Design
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # ZooKeeper Ensemble Design and Configuration for Multi-Region Confluent Kafka
 
 ## Executive Summary

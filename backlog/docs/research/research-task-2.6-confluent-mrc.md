@@ -1,3 +1,10 @@
+---
+id: research-2.6
+title: Confluent Multi-Region Clusters
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Research Document: Confluent Multi-Region Clusters (MRC)
 
 **Task ID:** TASK-2.6  

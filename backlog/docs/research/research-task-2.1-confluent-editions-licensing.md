@@ -1,3 +1,10 @@
+---
+id: research-2.1
+title: Confluent Editions and Licensing
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Research Document: Confluent Platform Editions, Licensing, and Azure Deployment Models
 **Task:** TASK-2.1 - Multi-Region Confluent Kafka Research on Azure  
 **Date:** 2024  

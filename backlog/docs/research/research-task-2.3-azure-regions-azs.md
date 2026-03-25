@@ -1,3 +1,10 @@
+---
+id: research-2.3
+title: Azure Regions and Availability Zones for Kafka
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Azure Regions and Availability Zones for Kafka Multi-Region Deployments
 
 ## Executive Summary

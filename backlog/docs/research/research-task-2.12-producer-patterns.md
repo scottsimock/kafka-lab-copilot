@@ -1,3 +1,10 @@
+---
+id: research-2.12
+title: Multi-Region Kafka Producer Patterns
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Multi-Region Kafka Producer Client Patterns Research
 
 ## Executive Summary

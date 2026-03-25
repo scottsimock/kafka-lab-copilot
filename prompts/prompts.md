@@ -30,3 +30,16 @@ We're going to start a project today that will host an application that generate
 ```
 You are working very effectively through the tasks in the backlog, but, the agents are not committing their work to git. Please create a new skill about adhereing to good git hygiene making sure that after each task is completed successfully there is a related git commit. Pleaes update the copilot-instructions for this general project direction, update the orchestrator skill to follow this practice and update the developer agent to follow this practice.
 ```
+
+![implementation-plan](assets/implementation-plan.png)
+
+```
+ /grill-me Please create a new skill named backlog-decision. Do research for software decision making and documentation process to include the best practices
+  for software decision making process. Make sure to include tags so the decisions can be queries and organized for appropriate teams
+```
+based on customer requirements and the great research you've completed,  we need to make some decisions.  
+
+```
+/backlog-decision Create a decision for the Azure naming convention. All azure resources will be prefixed with three letters (customer prefix) followed by five
+ to 10 characters for the azure component followed by and parent resource as applicable (excluding tenant, sub and rg) followed by region.
+ ```

@@ -1,3 +1,10 @@
+---
+id: research-2.4
+title: Azure VM Sizing and Storage Configuration
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Azure VM Sizing and Storage Configuration for Confluent Kafka Brokers
 
 **Task ID:** TASK-2.4  

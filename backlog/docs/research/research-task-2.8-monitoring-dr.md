@@ -1,3 +1,10 @@
+---
+id: research-2.8
+title: Monitoring and Disaster Recovery
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Monitoring, Observability, and Disaster Recovery for Confluent Kafka on Azure
 
 **Document**: Research Task 2.8  

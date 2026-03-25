@@ -1,3 +1,10 @@
+---
+id: research-2.11
+title: Infrastructure as Code for Kafka
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Infrastructure as Code for Multi-Region Confluent Kafka on Azure VMs
 
 ## Executive Summary

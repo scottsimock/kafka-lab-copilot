@@ -1,3 +1,10 @@
+---
+id: arch-guide
+title: Multi-Region Confluent Kafka on Azure Architecture Guide
+type: research
+created_date: '2026-03-25 12:36'
+updated_date: '2026-03-25 12:36'
+---
 # Multi-Region Confluent Kafka on Azure: Comprehensive Architecture and Deployment Guide
 
 **Document Version:** 1.0  

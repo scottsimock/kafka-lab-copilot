@@ -43,3 +43,16 @@ based on customer requirements and the great research you've completed,  we need
 /backlog-decision Create a decision for the Azure naming convention. All azure resources will be prefixed with three letters (customer prefix) followed by five
  to 10 characters for the azure component followed by and parent resource as applicable (excluding tenant, sub and rg) followed by region.
  ```
+
+ `/grill-me Based on the great research you've done and the decisions taken, we want to create a multi-phase implementation plan to get confluent kafka running in azure.`
+
+ ```
+ /write-a-skill Before we start to create backlog, I want you to take this four phase roadmap plus references to the existing decisions and research and have you create a new skill that can be called plan-phase. This skill will take a number as
+input which represents the phase to be executed. This skill will be used by the orchestrator at the beginning of each phase to then plan a structured epic for the implementation of that phase. the epic will use . notation with a comprehensive list
+of sub tasks that will cover what the developer agents are implementing and servce as the documentation for what objective are going to be for the phase. There will be several sub tasks that are going to be used for pure development or
+implementation work. Once that is done, then within that phase we need to udnerstand how we can go about testing the code, make sure things are running with valid tests. And then at the end you're going to produce documentaon as if that epic was a
+development spike .The documentation is going to tell us what worked, what didn't work and technical debt that will be taken into the next phase so we can audit against that and commit remediations later. Please create that skill now so I can use
+it as a slash command.
+```
+
+`/fleet you are the technical lead need to use the orchestrator skill to delegate all epic 3 (task3) subtasks to developer agents. Work autonomously until all subtasks are created in this epic`
